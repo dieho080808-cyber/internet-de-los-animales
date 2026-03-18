@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Internet Animal PRO</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+<h1>🐾 Internet de los Animales</h1>
+<p>Datos reales + humor + ciencia</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="comportamiento.html">Comportamiento</a></li>
+<li><a href="ciencia.html">Ciencia</a></li>
+<li><a href="agradecimientos.html">Agradecimientos</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+
+<section>
+<h2>😴 Animales más lentos (modo cansado)</h2>
+
+<h3>🐢 Tortuga boba</h3>
+<p>
+Se mueve a solo 0.04 km/h. Vive en océanos Atlántico, Índico y Pacífico.
+Su lentitud se debe a su metabolismo y a la necesidad de ahorrar energía.
+Además, está en estado vulnerable según la UICN.
+</p>
+
+<h3>🐌 Caracoles</h3>
+<p>
+Se desplazan a 0.05 km/h. Su cuerpo produce mucosa que reduce la fricción,
+pero hace su movimiento extremadamente lento.
+</p>
+
+<h3>🦥 Perezosos</h3>
+<p>
+Se mueven 7 cm/s. Su metabolismo bajo les permite sobrevivir con poca comida,
+pero los hace lentos.
+</p>
+
+<h3>🦈 Tiburón de Groenlandia</h3>
+<p>
+Uno de los más lentos del océano. Vive en aguas frías, lo que reduce su actividad.
+</p>
+
+</section>
+
+<section>
+<h2>😂 Generador de Memes</h2>
+
+<input id="arribaTxt" placeholder="Texto arriba">
+<input id="abajoTxt" placeholder="Texto abajo">
+<button onclick="crearMeme()">Crear</button>
+<button onclick="guardarMeme()">Guardar</button>
+
+<div>
+<img id="imgMeme" src="https://images.unsplash.com/photo-1552410260-0fd9b577afa6">
+<p id="top"></p>
+<p id="bottom"></p>
+</div>
+
+</section>
+
+<section>
+  <p>escribe una palabra a la cual quieras saber su significado</p>
+<h2>🤖 IA Animal</h2>
+
+<input id="inputIA">
+<button onclick="IA()">Preguntar</button>
+
+<div id="chat"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html
